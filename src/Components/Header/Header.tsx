@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
+
 type HeaderProps = {
   update: (newFilter: string) => void;
   filter: string;
