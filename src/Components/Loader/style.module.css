@@ -1,0 +1,20 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px dashed #646cff;
+    animation: rotate 2s infinite linear;
+    margin: auto;
+    margin-top: 200px;
+    position: absolute;
+ 
+}
+
+@keyframes  rotate {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(1.4);
+    }
+}

@@ -1,0 +1,41 @@
+.header {
+    
+    background-color: #646cff;
+    margin-bottom: 30px;
+    padding: 10px 40px;
+}
+.headerTitle{
+    margin: 0;
+    color: white;
+}
+.headerTitle:hover{
+    color: rgb(224, 221, 221);
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    background-color: #646cff;
+    border-color: white;
+}
+.activebtn{
+    background-color: white;
+    color: #646cff;
+    
+}
+
+@media (max-width : 850px) {
+    .headerContent{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .btns{
+        flex-direction: column;
+    }
+}
