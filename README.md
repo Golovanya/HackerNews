@@ -1,5 +1,5 @@
 # HackerNews for VK Team =)
-## Тестовое задание
+
 <a href = "https://hacker-news-7aiv.vercel.app/" target="_blank">Ссылка на реализацию <a/>
 ### Реализовано:
 + ввывод 15 новосетй с возможностью показа большего количества
